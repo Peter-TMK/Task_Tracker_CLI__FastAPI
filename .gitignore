@@ -1,0 +1,52 @@
+# Byte-compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.myvenv/
+venv-task-tracker/
+
+# Environment variables file
+*.env
+
+# Database files
+*.sqlite3
+database.json
+
+# Logs
+*.log
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Jupyter Notebook Checkpoints (if used)
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache
+.pytest_cache/
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Dependencies
+pip-wheel-metadata/
+*.egg
+
+# Uvicorn logs
+*.uvicorn.log
